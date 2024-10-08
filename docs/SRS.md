@@ -36,6 +36,20 @@
 
 ## 2.2 Интерфейс пользователя
 
+Интерфейс включает:
+- Главный экран со списком целей.
+- Кнопку добавления новой цели.
+- Выпадающий список для выбора категории.
+- Окно дляя просмотра прогресса текущей цели.
+- Окно авторизации.
+
+<img src="mockups/main_main_menu.png" alt="main_menu" width="400" /><br />
+
+<img src="mockups/new_aim.png" alt="new_aim" width="400" /><br />
+
+<img src="mockups/charts_aim.png" alt="charts_aim" width="400" /><br />
+
+<img src="mockups/authorization.png" alt="authorization" width="400" /><br />
                                   
 
 <a name="user_specifications"/>
