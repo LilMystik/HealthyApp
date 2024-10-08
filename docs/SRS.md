@@ -43,7 +43,7 @@
 - Окно дляя просмотра прогресса текущей цели.
 - Окно авторизации.
 
-<img src="mockups/main_main_menu.png" alt="main_menu" width="400" /><br />
+<img src="mockups/main_menu.png" alt="main_menu" width="400" /><br />
 
 <img src="mockups/new_aim.png" alt="new_aim" width="400" /><br />
 
