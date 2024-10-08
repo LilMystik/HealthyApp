@@ -45,7 +45,7 @@
 
 <img src="mockups/main_menu.png" alt="main_menu" width="400" /><br />
 
-<img src="mockups/new_aim.png" alt="new_aim" width="400" /><br />
+<img src="mockups/new_aim_add.png" alt="new_aim_add" width="400" /><br />
 
 <img src="mockups/charts_aim.png" alt="charts_aim" width="400" /><br />
 
