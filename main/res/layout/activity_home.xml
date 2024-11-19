@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Полоса с выбором категорий -->
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:padding="8dp" />
+
+
+
+    <!-- Список целей -->
+    <ListView
+        android:id="@+id/goalListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+
+
+    <!-- Кнопка добавления -->
+    <Button
+        android:id="@+id/addGoalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A99A9A"
+        android:padding="16dp"
+        android:shadowColor="#C7A9A9"
+        android:text="Add Goal"
+        android:textColor="@color/black" />
+</LinearLayout>

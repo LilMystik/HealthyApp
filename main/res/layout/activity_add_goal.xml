@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/goalNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Goal Name" />
+
+    <EditText
+        android:id="@+id/goalDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description" />
+
+    <EditText
+        android:id="@+id/resultEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Final Result"
+        android:inputType="number" />
+
+
+    <!-- Заменён EditText на Spinner для выбора категории -->
+    <Spinner
+        android:id="@+id/goalCategorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/startDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Start Date" />
+
+    <Button
+        android:id="@+id/endDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select End Date" />
+
+
+    <Button
+        android:id="@+id/saveGoalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Goal" />
+</LinearLayout>

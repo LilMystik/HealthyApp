@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:label="HealthyApp"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Добавление HomeActivity в манифест -->
+        <activity android:name=".HomeActivity" android:exported="true" />
+
+        <activity android:name=".GoalDetailActivity" android:exported="true"/>
+
+        <activity android:name=".RegisterActivity" android:exported="true" />
+
+        <activity android:name=".AddGoalActivity" android:exported="true"/>
+
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
